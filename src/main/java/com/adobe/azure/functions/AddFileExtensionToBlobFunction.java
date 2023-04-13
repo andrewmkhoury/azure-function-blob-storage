@@ -1,4 +1,4 @@
-package com.functions;
+package com.adobe.azure.functions;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
