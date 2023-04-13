@@ -17,7 +17,7 @@
 		<functionAppName>azure-functions-blob-storage</functionAppName>
 		<functionAppRegion>westus</functionAppRegion>
 		<stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
-		<functionResourceGroup>akhouryuswest</functionResourceGroup>
+		<functionResourceGroup>targetResourceGroup</functionResourceGroup>
 	</properties>
 
 	<dependencies>
