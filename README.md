@@ -11,7 +11,8 @@ Here is an example of how to call the function:
 http://localhost:7071/api/addFileExtension?file=testnoext/noextjpg
 
 ## Setup
-1. Update the configurations in [local.settings.json]
+1. Update the configurations in [local.settings.json](local.settings.json)
+   * Replace the `storageaccountname` with the name of your storage account and replace `***` in `AccountKey=***` with your Account Key from Azure
 2. Update the functionResourceGroup and functionResourceGroup configurations in [pom.xml](https://github.com/andrewmkhoury/azure-function-blob-storage/blob/e278fc29e726816262ed32f79c0df47a727ac96e/pom.xml#L20)
 3. Run maven to build per the instructions [here](https://github.com/Azure-Samples/azure-functions-samples-java)
 
