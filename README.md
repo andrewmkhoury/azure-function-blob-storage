@@ -20,7 +20,7 @@ Since azure functions aren't allowed long running times you would need to run th
 To update all the files on an Azure Blob Storage account you would need to get a list of all the file names:
 
 You can use the az storage blob list command along with grep and regular expressions to filter the results and only show files that have no extension. Here's the command:
-```
+```bash
 STORAGE_ACCOUNT=storageaccount
 STORAGE_ACCOUNT_KEY=key
 STORAGE_CONTAINER=container
